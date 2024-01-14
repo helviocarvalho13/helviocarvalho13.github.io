@@ -6,99 +6,102 @@
     <title>Curriculum Vitae</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f3f3f3;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
         }
         header {
-            background: #50b3a2;
+            background: #0077b5;
             color: white;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
+            padding: 20px 0;
+            text-align: center;
         }
-        header a {
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
+        header h1 {
             margin: 0;
         }
-        header nav {
-            float: right;
-            margin-top: 10px;
+        section {
+            margin-bottom: 20px;
         }
-        header .highlight, header .current a {
-            color: #e8491d;
-            font-weight: bold;
+        section h2 {
+            background: #0077b5;
+            color: white;
+            padding: 5px 10px;
         }
-        header a:hover {
-            color: #ffffff;
-            font-weight: bold;
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+        .profile-summary {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id="branding">
-                <h1>John Doe</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Jane Doe's Resume</h1>
     </header>
 
-    <section id="showcase">
-        <div class="container">
-            <h1>Professional Resume</h1>
-            <p>Experienced Web Developer with a strong background in developing award-winning applications for a diverse clientele. 5+ years of industry experience includes programming, debugging, and wireframes.</p>
-        </div>
-    </section>
+    <div class="container">
+        <section class="profile-summary">
+            <h2>Profile Summary</h2>
+            <p>Experienced software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success.</p>
+        </section>
 
-    <section id="resume">
-        <div class="container">
+        <section class="experience">
             <h2>Experience</h2>
             <ul>
-                <li>Job Title at Company Name - January 2020 - Present</li>
-                <li>Job Title at Company Name - May 2015 - December 2019</li>
+                <li>
+                    <h3>Senior Software Engineer - XYZ Corp</h3>
+                    <p>April 2018 - Present</p>
+                    <p>Developed several high-traffic e-commerce websites using modern technologies such as React and Node.js.</p>
+                </li>
+                <li>
+                    <h3>Software Engineer - ABC Corp</h3>
+                    <p>June 2015 - March 2018</p>
+                    <p>Worked on a variety of client projects, specializing in front-end development and UX/UI design.</p>
+                </li>
             </ul>
+        </section>
 
+        <section class="education">
             <h2>Education</h2>
             <ul>
-                <li>Bachelor of Science in Computer Science - University Name, Year</li>
-                <li>High School Diploma - School Name, Year</li>
+                <li>
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>University of Technology - 2015</p>
+                </li>
+                <li>
+                    <h3>Associate Degree in Web Design</h3>
+                    <p>Local Community College - 2012</p>
+                    </li>
             </ul>
-
-            <h2>Skills</h2>
-            <p>HTML, CSS, JavaScript, React, Node.js</p>
+        </section>
+        <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Proficient in JavaScript, HTML5, CSS3</li>
+                    <li>Experienced with React and Vue.js frameworks</li>
+                    <li>Familiar with Node.js and Express</li>
+                    <li>Understanding of RESTful API design</li>
+                    <li>Experience with Agile development and Scrum</li>
+                </ul>
+            </section>
         </div>
-    </section>
-</body>
+    </body>
 </html>
 
