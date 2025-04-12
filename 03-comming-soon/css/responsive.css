@@ -1,0 +1,148 @@
+
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (min-width: 900px) {
+	div .main-logo{
+		width: 50%;
+		height: 40%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div .subtitle{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+	}
+
+	div .send-email{
+		height: 20%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div .bottom-button{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (min-width: 640px) and (max-width: 899px){
+
+	div .main-logo{
+		margin-top: 1%;
+		width: 30%;
+		height: 30%;
+		display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	}
+
+	div .subtitle{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+	}
+
+	div .send-email{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div .bottom-button{
+		margin: 10%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+@media only screen and (min-width: 568px) and (max-width: 639px){
+
+	div .main-logo{
+		width: 50%;
+		height: 30%;
+		display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	}
+
+	div .subtitle{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: justify;
+	}
+
+	div .send-email{
+		margin-bottom: 10%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div .bottom-button{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+
+/* Screens Resolution : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	p{ line-height: 1.4; }
+
+	h1{ font-size: 2.8em; line-height: 1; }
+	h2{ font-size: 2.2em; line-height: 1.1; }
+	h3{ font-size: 1.8em; }
+}
+
+
+/* Screens Resolution : 479px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	body{ font-size: 12px; }
+
+
+
+}
+
+/* Screens Resolution : 359px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 359px) {
+
+
+
+
+}
+
+/* Screens Resolution : 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 290px) {
+
+
+}
