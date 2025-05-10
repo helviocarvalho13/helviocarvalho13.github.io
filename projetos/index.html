@@ -1,0 +1,207 @@
+
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos - Luna Tecnologia</title>
+  <link href="../images/favicon_io/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet"/>
+  <link href="../common-css/ionicons.css" rel="stylesheet"/>
+  <link href="../03-comming-soon/css/styles.css" rel="stylesheet"/>
+  <link href="../03-comming-soon/css/responsive.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-image: url('../images/teste.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+    }
+    .main-content {
+      padding: 20px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: rgba(0,0,0,0.6);
+      border-radius: 8px;
+      
+    }
+    h1 {
+      font-size: 32px;
+      color: white;
+    }
+
+    h3 {
+      font-size: 20px;
+      color: white;
+    }
+
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+      text-align: left;
+      color: white;
+      margin-top: 32px; /* espaçamento entre os pontos */
+      margin-bottom: 10px;
+    }
+
+    p, ul li {
+      font-size: 15px;
+      line-height: 1.6;
+      color: white;
+      text-align: justify;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      display: block;
+      margin: auto;
+    }
+
+    .profile-img-renanmartins {
+      width: 150px;
+      height: 100px;
+      display: block;
+      margin: auto;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .social-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .timeline {
+      margin-top: 40px;
+    }
+    .timeline ul {
+      list-style: none;
+      padding: 0;
+    }
+    .timeline li {
+      margin-bottom: 15px;
+      background-color: rgba(255,255,255,0.1);
+      padding: 10px 15px;
+      border-left: 4px solid #00c8ff;
+    }
+    footer {
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="main-content">
+    <img src="images/logoGuardiaoWhite01.png" class="profile-img">
+    <h1 style="text-align: center;">Guardião</h1>
+    <p style="text-align:center;color: white;">Sistema de Controle de Acessos</p>
+
+    <div style="text-align:center; margin-top: 20px;">
+      <button id="btnPolitica" onclick="togglePolitica('politicaGuardiao')" style="padding: 10px 20px; font-size: 16px;">
+        Ver Política de Privacidade
+      </button>
+    </div>
+    
+    <div id="politicaGuardiao" style="display: none; color: white; text-align: left; padding: 20px; max-width: 800px; margin: auto;">
+
+      <h4 style="text-align: center;">Política de Privacidade</h4>
+      <p><strong>Última atualização:</strong> 10/05/2025</p>
+  
+      <p>A Luna Tecnologia respeita sua privacidade e está comprometida com a proteção dos dados pessoais dos usuários do aplicativo <strong>Guardião</strong>. Esta Política de Privacidade explica como coletamos, usamos, armazenamos e protegemos suas informações.</p>
+      
+      <h4>1. Informações que coletamos</h4>
+      <p>O aplicativo Guardião coleta as seguintes informações:</p>
+      <ul>
+        <li> Nome completo; CPF (Cadastro de Pessoa Física); Dados de acesso e registro de atividades no sistema;</li>
+      </ul>
+      <p>Essas informações são necessárias para identificar e autenticar o usuário, bem como para registrar acessos de forma segura e confiável.</p>
+  
+      <h4>2. Como usamos essas informações</h4>
+      <p>As informações coletadas são utilizadas exclusivamente para:</p>
+      <ul>
+        <li>Identificar o usuário durante o login; Registrar acessos e atividades no sistema; Garantir a segurança e o controle de entrada e saída de pessoas;</li>
+      </ul>
+      <p>Não utilizamos os dados para fins publicitários ou de marketing.</p>
+  
+      <h4>3. Compartilhamento de informações</h4>
+      <p><strong>Não compartilhamos seus dados pessoais com terceiros</strong>, exceto nos seguintes casos:</p>
+      <ul>
+        <li>Quando exigido por autoridades legais, mediante ordem judicial; Para cumprimento de obrigações legais e regulatórias;</li>
+      </ul>
+  
+      <h4>4. Segurança</h4>
+      <p>A Luna Tecnologia adota boas práticas de segurança da informação para proteger seus dados contra acessos não autorizados, alterações, divulgação ou destruição. Isso inclui criptografia, controle de acesso e monitoramento dos sistemas.</p>
+  
+      <h4>5. Armazenamento e retenção de dados</h4>
+      <p>Os dados são armazenados em servidores seguros e permanecerão retidos apenas pelo tempo necessário para cumprir as finalidades descritas nesta política ou conforme exigido por lei.</p>
+  
+      <h4>6. Direitos do usuário</h4>
+      <p>Você pode, a qualquer momento:</p>
+      <ul>
+        <li>Solicitar acesso aos seus dados; Corrigir ou atualizar informações pessoais; Solicitar a exclusão dos seus dados (exceto quando houver obrigação legal de retenção)</li>
+      </ul>
+      <p>Para isso, entre em contato pelo e-mail abaixo.</p>
+  
+      <h4>7. Alterações nesta Política de Privacidade</h4>
+      <p>A presente política poderá ser atualizada a qualquer momento para refletir mudanças legais ou melhorias no serviço. Recomendamos que você revise este documento periodicamente.</p>
+  
+      <h4>8. Contato</h4>
+      <p>Em caso de dúvidas, solicitações ou para exercer seus direitos, entre em contato conosco:</p>
+      <p><strong>Email:</strong> contato@lunatecnologia.com.br</p>
+  
+    </div>
+  </div>
+
+  <br>
+
+  <!--<div class="main-content">
+    <img src="images/logoDourado01.png"  class="profile-img-renanmartins">
+    <h1 style="text-align: center;">Renan Martins - Nutricionista</h1>
+    <p style="text-align:center; color: white;">Sistema de Gerencimento de Pacientes e Consultas</p>
+    
+    <div style="text-align:center; margin-top: 20px;">
+      <button id="btnPolitica" onclick="togglePolitica('politicaRenanMartinsNutri')" style="padding: 10px 20px; font-size: 16px;">
+        Ver Política de Privacidade
+      </button>
+    </div>
+
+  </div>-->
+
+  <footer>
+    <p style="margin-top: 30px; text-align: center; font-size: 13px; color: rgba(0,0,0,0.6);">&copy; 2019 Luna Tecnologia. Todos os direitos reservados.</p>
+  </footer>
+</body>
+<script>
+   function togglePolitica(tipo) {
+    var x = document.getElementById(tipo);
+    var btn = document.getElementById("btnPolitica");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      btn.textContent = "Ocultar Política de Privacidade";
+    } else {
+      x.style.display = "none";
+      btn.textContent = "Ver Política de Privacidade";
+    }
+  }
+
+  
+</script>
+</html>
